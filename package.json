@@ -1,0 +1,26 @@
+{
+    "name": "exp-analytics",
+    "description": "Analytics Plugin for Expansive",
+    "version": "0.1.2",
+    "keywords": [
+        "expansive-plugin",
+        "analytics"
+    ],
+    "devDependencies": {
+        "expansive": ">=0.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/embedthis/exp-analytics.git"
+    },
+    "licenses": "GPL",
+    "pak": {
+        "export": {
+            "from": [
+                "contents/**"
+            ],
+            "to": "${TOP}",
+            "overwrite": false
+        }
+    }
+}
