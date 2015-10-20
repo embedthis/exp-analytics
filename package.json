@@ -7,7 +7,7 @@
         "analytics"
     ],
     "devDependencies": {
-        "expansive": ">=0.6.0"
+        "expansive": ">=0.7.0"
     },
     "repository": {
         "type": "git",

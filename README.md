@@ -3,7 +3,10 @@ exp-analytics
 
 Expansive plugin for Google Analytics.
 
-Provides the 'analytics' services.
+Provides the 'analytics' services. The exp-analytics plugin will insert a Google Analytics script into every html page
+with a '.html' extension. Additional files to track may be specified via the 'extra' configuration property.
+
+The analytics script is provided via contents/scripts/analytics.js. 
 
 ### To install:
 
@@ -11,8 +14,9 @@ Provides the 'analytics' services.
 
 ### To configure in expansive.json:
 
-* analytics.code &mdash; Google Analytics ID
-
+* code &mdash; Google Analytics ID
+* extra &mdash; Extra files to explicitly add the analytics code. Typically used to add analytics to unprocessed files from
+    the ./files directory.
 
 ```
 {
