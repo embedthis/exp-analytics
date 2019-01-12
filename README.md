@@ -20,6 +20,13 @@ The analytics script is provided via contents/scripts/analytics.js.
 
 ```
 {
+    control: {
+        collections: {
+            remoteScripts: [
+                'async https://www.google-analytics.com/analytics.js'
+            ]
+        }
+    },
     services: {
         analytics: {
             code: 'Google Analytics ID'
@@ -30,4 +37,4 @@ The analytics script is provided via contents/scripts/analytics.js.
 
 ### Get Pak from
 
-[https://embedthis.com/pak/](https://embedthis.com/pak/)
+[https://www.embedthis.com/pak/](https://www.embedthis.com/pak/)

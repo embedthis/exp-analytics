@@ -14,13 +14,12 @@
         "url": "git://github.com/embedthis/exp-analytics.git"
     },
     "licenses": "GPL",
-    "pak": {
-        "export": {
-            "from": [
-                "contents/**"
-            ],
-            "to": "${TOP}",
-            "overwrite": false
-        }
-    }
+    "export": {
+        "from": [
+            "contents/**"
+        ],
+        "to": "${CONTENTS}/..",
+        "overwrite": false
+    },
+    "origin": "embedthis/exp-analytics"
 }
