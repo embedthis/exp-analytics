@@ -5,6 +5,8 @@ window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', '@={expansive.services.analytics.code}', 'auto');
 ga('send', 'pageview');
 ga('set', 'anonymizeIp', true);
+/*
 setTimeout(function() {
-    ga('send', 'event', 'Profitable Engagement', 'Time on page more than 1 minute');
+    ga('send', 'event', 'progress', 'Time on page more than 1 minute');
 }, 60 * 1000);
+*/
