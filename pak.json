@@ -1,7 +1,7 @@
 {
     "name": "exp-analytics",
     "description": "Analytics Plugin for Expansive",
-    "version": "0.1.2",
+    "version": "1.0.0",
     "keywords": [
         "expansive-plugin",
         "analytics"

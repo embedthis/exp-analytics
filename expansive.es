@@ -27,9 +27,7 @@ Expansive.load({
                 let extra = transform.service.extra
                 if (extra) {
                     let dist = directories.dist
-                    let analytics: Path? = dist.files(['scripts/analytics.min.js', 'scripts/analytics.js'],
-                        {relative: true})[0]
-
+                    let analytics: Path? = dist.files(['scripts/analytics.min.js', 'scripts/analytics.js'], {relative: true})[0]
                     if (!analytics) {
                         trace('Warn', 'Cannot find analytics in dist/scripts')
                     } else {
